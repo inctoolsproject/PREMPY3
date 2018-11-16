@@ -13,7 +13,7 @@ from googletrans import Translator
 import youtube_dl
 #=============
 #cl = LineClient()
-cl = LineClient(authToken='ExZg1Omp480sCra1dEA8.ajI+yIQBIeMP5t14rlSs/a.dnsR2QIfCEn0i0D78xZ72B+gkQHn4tjo51/YU40OwoIw=')
+cl = LineClient(authToken='EzDJHf7hPySDwWXYy123.3coVhzPkYHVvD9xDR9s0mW.ZFrItA476HjaJ+NWIfVKPlU3tjJwkjNa/U9pFPN/jWw=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -25,7 +25,7 @@ mid = cl.getProfile().mid
 responsename1 = cl.getProfile().displayName
 
 #ki = LineClient()
-ki = LineClient(authToken='EwotbmWxJvYNGwKhHOG0.GGB9/B3gts+Q+LIcQ7yD0a.lixgARywkCHpbEOoX+nPCy+DQcanPS2kQo3f+AjVZpJk=')
+ki = LineClient(authToken='EzPzLqWhuzyQHMQor7a6.z9+U9ONlQk118KU3KlKeHG.XRBvnGctQlz5ZCWity009MKv4mF4fjgPAjQ/Hlsrew0=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -35,7 +35,7 @@ Amid = ki.getProfile().mid
 responsename2 = ki.getProfile().displayName
 
 #kk = LineClient()
-kk = LineClient(authToken='EwGTfz4oa6u2uE4LcbVc.05byiff18vszc1tCN9vlha.PidJWzSh3ouHGJjnKclVR61z6gaTlAuDczzlPAnCgGXM=')
+kk = LineClient(authToken='EyIhn4C2bkqI9ACi4BU4.c4Wpy44+GRW+roxmGPVFva.whlPWFJMXmgLTefU5YCn8t8/sxJmN5YF2NJyikglUTY=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
@@ -45,7 +45,7 @@ Bmid = kk.getProfile().mid
 responsename3 = kk.getProfile().displayName
 
 #kc = LineClient()
-kc = LineClient(authToken='EwZxWi8pqVzG56GHW2Ue.2P7/aOtLbEoFNtM9Zao/BG.V5AwOBdmThpy4CRyIhvCvzIjRuwe5kiwhatDUTuXrQZg=')
+kc = LineClient(authToken='EzsN7GqmaK2FdRORTGf4.WeCB91uetoDOaqPkk0C4Ha.ewKVXKGWufZ0Pv9pCzTvAU7LpF87bdbrJqgUYvdGE1A=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
@@ -55,7 +55,7 @@ Cmid = kc.getProfile().mid
 responsename4 = kc.getProfile().displayName
 
 #km = LineClient()
-km = LineClient(authToken='EwtLXMBBN6daPAoGz901.CT6/NHqQBWYrABNDHhJOWq.WZEfbtFXW5kb7pl6n9+HZ9KuSbt+6uiGe3WHFl/PviZ0=')
+km = LineClient(authToken='EzoakSaH7XdNDefXm9Of.DzV/wynMqF16BjrLy6mx3W.995xf2y++he/X2tgZiA1pkLqGBk4FyUx7Y5OQOimDQQ=')
 km.log("Auth Token : " + str(km.authToken))
 channel4 = LineChannel(km)
 km.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -65,7 +65,7 @@ Dmid = km.getProfile().mid
 responsename5 = km.getProfile().displayName
 
 #kb = LineClient()
-kb = LineClient(authToken='Ewhz7iKOuvXWxoyzGhBf.6bEDR9ZpL8Ya4o9i7PiXxW.HeMv0ytLJioIU1rE64Wvh5R6R1C3KtL5IKBtQmr6kjn4=')
+kb = LineClient(authToken='EzSJAYz8FovZkkTy44ed.f63GctGT9erR0WWMVxJitq.Q2BZPEkerw70jsM2pWRM10vQhhHfA9CLbXGo9oR56hM=')
 kb.log("Auth Token : " + str(kb.authToken))
 channel5 = LineChannel(kb)
 kb.log("Channel Access Token : " + str(channel5.channelAccessToken))
@@ -75,7 +75,7 @@ Emid = kb.getProfile().mid
 responsename6 = kb.getProfile().displayName
 
 #sw = LineClient()
-sw = LineClient(authToken='EvhD7rlI4FsSG4mjarXe.fi6AOZ9NS4Fsm3ey6B9rlG.IqporEXQK+RvUBPmwanuqAym2EBaTTbbN5tNNduoGIQ=')
+sw = LineClient(authToken='EzS33pvtoPeSiJDpSMz6.AQP7m6y2VYvGSrjCHapZ1G.+hIx1Afh1hS3OrwskAzSu2Vxw1KSjnNea4DzKk5Xo5c=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel6 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel6.channelAccessToken))
@@ -86,10 +86,10 @@ responsename7 = sw.getProfile().displayName
 
 print("---LOGIN SUCCES---")
 
-creator = ["u0098bf622a9b8849a9e53d7844bb12f8"]
-owner = ["u0098bf622a9b8849a9e53d7844bb12f8"]
-admin = ["u0098bf622a9b8849a9e53d7844bb12f8","uda9efe0284e505e39f9d39bdcc03be6e","ue8179dafdccf97cc80e0ef48ee92315f","u8206fdf9bdc64d2feafe5882abb61dd0","ud39058205175f154990b54dc9fd54b1c","u72debe9e142a6f0c9169b9dd8478e8c1"]
-staff = ["u0098bf622a9b8849a9e53d7844bb12f8"]
+creator = ["udc23af1d9a4aca1bd577d5ddafd4b433"]
+owner = ["udc23af1d9a4aca1bd577d5ddafd4b433"]
+admin = ["udc23af1d9a4aca1bd577d5ddafd4b433","uda9efe0284e505e39f9d39bdcc03be6e","ue8179dafdccf97cc80e0ef48ee92315f","u8206fdf9bdc64d2feafe5882abb61dd0","ud39058205175f154990b54dc9fd54b1c","u72debe9e142a6f0c9169b9dd8478e8c1"]
+staff = ["udc23af1d9a4aca1bd577d5ddafd4b433"]
 
 KAC = [cl,ki,kk,kc,km,kb]
 ABC = [ki,kk,kc,km,kb]
